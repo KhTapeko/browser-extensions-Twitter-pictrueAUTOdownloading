@@ -1,5 +1,5 @@
 # Twitter-pictrueAUTOdownloading
-  Twitter(現X) 自動圖片下載
+  Twitter（現X） 自動圖片下載
 
 ## Description 描述
   在 Twitter（X）頁面自動捲動，偵測推文圖片載入，並自動批次下載圖片檔。
