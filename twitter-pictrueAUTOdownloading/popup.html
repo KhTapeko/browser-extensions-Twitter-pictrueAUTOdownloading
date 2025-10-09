@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Twitter Image Saver</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 12px; }
+      .row { display: flex; gap: 8px; margin-bottom: 8px; }
+      button { padding: 6px 10px; border-radius: 8px; border: 0; cursor: pointer; }
+      .danger { background: #e03131; color: #fff; }
+      .ok { background: #2f9e44; color: #fff; }
+    </style>
+  </head>
+  <body>
+    <h3 style="margin:0 0 8px;">Twitter Image Saver</h3>
+    <div class="row">
+      <button id="start" class="ok">Start</button>
+      <button id="toggle">Pause/Resume</button>
+      <button id="scan" class="ok">Force Scan</button>
+    </div>
+    <div class="row">
+      <button id="stop" class="danger">Stop</button>
+    </div>
+    <p style="font-size:12px;opacity:.8;">在 x.com / twitter.com 分頁使用。Esc 暫停、Shift+Esc 停止。</p>
+    <script src="popup.js"></script>
+  </body>
+</html>
